@@ -38,7 +38,12 @@ Datasets are stored in the `data/` directory in sub-directories `data/train`, `d
   cd src
 ```
 
-2. Setup a Google Cloud Account, and get key to use Gemini. Place the key in `sampler.py` line 36.
+2. Unzip data.zip to extract data/ directory
+```bash
+  unzip data.zip
+```
+
+3. Setup a Google Cloud Account, and get key to use Gemini. Place the key in `sampler.py` line 36.
 
 ## Directory Structure
 
